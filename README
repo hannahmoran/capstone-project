@@ -1,0 +1,22 @@
+For the most part, I have used libraries that are standard with an Anaconda installation. 
+
+One exception:
+wordcloud - https://github.com/amueller/word_cloud
+
+Other primary libraries used:
+pandas
+numpy
+gensim
+nltk
+bokeh
+matplotlib
+sklearn
+
+
+I have moved some code out of the notebooks into the src folder to make the notebooks less cluttered.
+
+No special setup is necessary - the notebooks can be run provided the folder structure is maintained as there are some relative references there for importing data and src functions. 
+
+Raw and processed data are included in the data folder. 
+
+Notebooks provide the option to import the data from key pre-processing or modeling steps and skip actually running the code, which can take some time. For example, the LDA grid searching will take many hours to run so it is better to skip running those cells and instead import the grid search results. 
